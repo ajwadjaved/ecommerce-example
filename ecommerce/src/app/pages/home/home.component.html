@@ -1,0 +1,21 @@
+<div class="banner">
+    <h1>Buy & Sell Quality Online Businesses </h1>
+</div>
+
+<!-- businessbox -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Online Businesses For Sale</h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let d of businessDisplay;index as i">
+            <div class="businessbox" *ngIf="i<=3" >
+                <img src="{{d.businessImg}}"/>
+                <h1>{{d.businessName}}</h1>
+                <h3>{{d.assetType}}</h3>
+                <!-- <p>{{d.monthlyNetProfit}}</p> -->
+                <h2>{{d.price | currency: 'PKR '}}</h2>
+                
+            </div>
+        </div>
+    </div>
+    <a routerLink="business" class="viewmorebtn">view more</a>
+</div>

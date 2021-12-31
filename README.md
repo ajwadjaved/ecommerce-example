@@ -1,0 +1,1 @@
+Basic ecommerce website for CS minor final project

@@ -1,0 +1,68 @@
+.banner
+{
+    background-image: url('../../../assets/img/bannerimg.jpg');
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+    opacity: 0.95;
+}
+
+.banner h1
+{
+
+    position: absolute;
+    top: 20%;
+    bottom: 80%;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 50%; /* Full width */
+  padding: 25px 50px 110px 100px; /* Some padding */
+  
+}
+.businessbox
+{
+  padding: 10px 5px;
+
+}
+
+.businessbox img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.businessbox h1
+{
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.businessbox h2
+{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.businessbox h3
+{
+  font-size: 15px;
+  margin-top: 20px;
+  color: rgb(9, 145, 111);
+  font-weight: bold;
+}
+
+.viewmorebtn
+{
+  background: rgb(13, 175, 132);
+  color: black;
+  border: 1px solid transparent;
+  font-weight: bold;
+  padding: 13px 30px;
+  border-radius: 30px;
+
+    
+}

@@ -1,0 +1,32 @@
+.businessImg
+{
+    width: 90%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+ .info
+{
+    
+    width: 100%;
+   
+    align-items: center;
+
+
+}
+
+h1{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(20, 150, 117);
+    font-weight: bold;
+    
+
+}
+h2
+{
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(9, 145, 111);
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+
+.navbar-light .navbar-nav .nav-link.active-link
+{
+    color: rgb(9, 145, 111);
+    font-weight: bold;
+    box-sizing: border-box;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+}
+.navbar-brand{
+
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+    font: italic;
+    color: rgb(14, 66, 53);
+    font-family: Bradley Hand, cursive;
+    
+}

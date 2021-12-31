@@ -1,0 +1,52 @@
+<form (submit)="addNewProduct(addProductForm)" #addProductForm="ngForm">
+
+
+  <div class="form">
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <h1>Sell your Business</h1>
+        <label for="validationServer01">Business Name</label>
+        <input type="text" class="form-control" required name="businessName" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+        <label for="validationServer01">Asset Type</label>
+        <input type="text" class="form-control" required name="assetType" ngModel>
+
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer03">Description</label>
+        <textarea type="text" class="form-control" required name="description" ngModel>
+        </textarea>
+      </div>
+      
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+
+        <label for="validationServer01">Monthly NetProfit</label>
+        <input type="text" class="form-control" required name="monthlyNetProfit" ngModel>
+      </div>
+      <div class="col-md-6 mb-3">
+
+
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationServer01">Business Price</label>
+        <input type="text" class="form-control" required name="businessPrice" ngModel>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <label for="validationServer01">Location</label>
+        <input type="text" class="form-control" required name="location" ngModel>
+      </div>
+
+      <div class="button">
+        <button class="col-md-6 mb-3 btn btn-md btn-dark mt-3" type="submit">Submit form</button>
+      </div>
+    </div>
+  </div>
+</form>
